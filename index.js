@@ -1,3 +1,7 @@
+require('dotenv').config(); // Permet d'activer les variables d'environnement qui se trouvent dans le fichier `.env`
+
+
+
 const express = require("express");
 const cors = require("cors");
 
